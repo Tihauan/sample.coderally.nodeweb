@@ -203,7 +203,7 @@ $('#race-play-btn').on('click', function() {
     $('#race-start-btn').css('display', 'block');
     $('#start-race').removeClass('disabled');
     $('#start-race').on('click', function() {
-      window.open('videoStream.html?=' + raceID + "&" + server, '_blank');
+      window.open('videostream.html?=' + raceID + "&" + server, '_blank');
     });
   });
 
